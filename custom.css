@@ -1,0 +1,283 @@
+body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}.w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800 {}button.flex.items-center.gap-1.w-full.transition-colors.duration-200.text-left.py-1\.5.text-gray-400.hover\:bg-zinc-900.hover\:text-white {}.w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800 {
+    border-bottom: 0;
+}
+.bg-black {
+    background: #fff !important;
+    color: #000 !important;
+    border-color: #675E45;
+}
+* {font-family: PP Neue Montreal Medium, Helvetica, Arial;}
+
+p {font-weight: 100 !important;font-size: 17px !important;color: #111111 !important;line-height: 2  !important;margin-bottom: 1rem !important;}
+
+h1,h2,h3,h4, h5,span,li,ol,strong {
+    color: #000000 !important;
+}
+h2 {color:#065972 !important; font-size: 26px !important;font-family:PP Neue Montreal Medium; font-weight:100 !important;}
+
+h3 {margin-top: 2rem !important;font-size: 18px !important;font-weight: 600 !important;margin-bottom: 0.75rem !important;letter-spacing: 0.01rem !important;}
+
+summary, summary span, summary div, details div {
+    color:#fff !important;
+}
+
+summary.text-zinc-300 span {
+    font-weight:bold;
+}
+
+f {
+    color: #333;
+}
+
+
+/*
+.text-blue-400 {
+    color: #166b90;
+}
+*/
+
+.text-blue-400 {
+    color: #939393;
+}
+.text-blue-400:hover {
+    color:#065972;
+}
+
+.bg-zinc-900 {
+    background: #51504e;
+}
+
+nav.w-full.overflow-y-auto.flex-1.pr-2.custom-scrollbar.p-4 {
+    background: #f9f8f5;
+}
+
+
+.border-r {
+    border-color: #eae5d4;
+}
+
+svg.tabler-icon.tabler-icon-sparkles.text-white {
+    color: #ffffff !important;
+}
+
+button.bg-black {
+    background: #ff9a3e !important;
+    border: 1px solid #e1730e !important;
+    transition: all ease-in-out 0.25s;
+
+}
+
+
+button:hover {
+    background: #e9e6e0 !important;
+}
+
+nav.w-full.overflow-y-auto.flex-1.pr-2.custom-scrollbar.p-4 {padding-right: 0;}
+
+button.flex.items-center.gap-1.w-full.transition-colors.duration-200.text-left.py-1\.5.text-gray-400.hover\:bg-zinc-900.hover\:text-white {padding-right: 0rem;}
+
+nav span.text-sm.text-left {padding-right: 1.6rem;color: #0b5d76 !important;margin-bottom: 0.2rem !important;}
+
+/*
+h1#a-comprehensive-analysis-of-the-ai-drone-industry-2025 {
+    background: url(https://lh3.googleusercontent.com/d/1dBPiQxnAUo7Fapv7FfRLkUVqND6XnF7Y) no-repeat 100% 8px !important;
+    no-repeat top right !important);
+    background-size: 33px  !important;
+    background-color: #fff !important;
+}
+*/
+
+main.w-\[70\%\].overflow-y-auto.bg-black {
+    background: url(https://lh3.googleusercontent.com/d/1dBPiQxnAUo7Fapv7FfRLkUVqND6XnF7Y) no-repeat 98% 4% !important;
+    background-size: 33px  !important;
+    background-color: #fff !important;
+    background-origin: padding-box;
+}
+
+
+/* ========== BEGIN Printing Styles ========== */ 
+@media print {
+
+    * { overflow: visible !important; margin-bottom: 0.1rem !important } 
+    /*.h2 { page-break-after:always; }*/
+    
+    /*h1:first-child { margin-top:-15% !important; }*/
+    h1 {font-size: 24px !important; margin-top:32px !important}
+    h2 {font-size: 18px !important;}
+    h3,h4 {font-size: 16px !important;margin-top:1rem !important;}
+
+    h2 {margin-top: 1.5rem !important; break-before: always; break-after: avoid; page-break-after: avoid;}
+    p, li, strong {font-size: medium !important;}
+    p {margin-bottom: 1rem !important;}
+    
+    .flex.flex-1.overflow-hidden {
+        background: #fff;
+    }
+    
+    
+    .py-10 {padding:0;}
+    
+    
+    .w-\[30\%\].border-r.border-zinc-800.overflow-hidden.h-full.bg-black.md\:block, .w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800, .mb-6.bg-zinc-900.rounded-md.overflow-hidden, .text-zinc-400.text-sm.mb-4, button.bg-black.hover\:bg-zinc-900.text-white.p-4.rounded-full.shadow-lg.flex.items-center.justify-center.relative.border.border-zinc-800 {
+        display: none;
+    }
+
+    hr { display:none;}
+    
+    main.w-\[70\%\].overflow-y-auto.bg-black {
+        margin: auto;
+        background: url(https://lh3.googleusercontent.com/d/1dBPiQxnAUo7Fapv7FfRLkUVqND6XnF7Y) no-repeat 100% 0 !important;
+        background-size: 35px  !important;
+        background-color: #fff !important;
+        width:100% !important;
+        padding:0% 10% !important;
+    }     
+        
+    .max-w-\[800px\].mx-auto {
+        display: block;
+        height: auto;
+    }
+    
+    a.px-3:after {
+        content: " (" attr(href) ") ";
+        font-size: 80%; 
+    }
+    
+    .flex.items-center.justify-between.p-3.border-b.border-zinc-800 {
+        display: none;
+    }
+    
+    .relative.p-3.overflow-hidden.flex-grow {
+        display: none;
+    }
+    
+    .min-h-\[340px\] {
+        width:100% !important;
+        display: block;
+        float:left;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .relative.p-3.overflow-hidden.flex-grow {
+        display: none;
+    }
+    
+    .flex.flex-col.bg-black.border.border-zinc-800.rounded-lg.overflow-hidden.shadow-xl.h-full {
+        border: 0;
+    }
+    
+    .grid.grid-cols-3.gap-6 {
+        display: block;
+    }
+    
+    .flex.justify-end.p-2.bg-zinc-900\/50 {
+        justify-content: flex-start;
+        background: none;
+        
+    }
+    
+    .w-full.mt-16.pt-8.border-t.border-zinc-800 { display: none; }
+}
+/* ========== END Printing Styles ========== */ 
+
+
+
+span.text-sm.text-left.font-medium {
+    font-weight: 600;
+    font-size: 16px;
+    color: #a1a1aa !important;
+    margin-bottom: 1rem;
+}
+
+button.flex.items-center.gap-1.w-full.transition-colors.duration-200.text-left.py-1\.5.text-gray-300.hover\:bg-zinc-900.hover\:text-white {
+    !importat;
+    
+    
+    
+    font-weight: 600;
+    letter-spacing: 0.012rem;
+}
+
+nav button.bg-black.hover\:bg-zinc-900.text-white.p-4.rounded-full.shadow-lg.flex.items-center.justify-center.relative.border.border-zinc-800 {
+    background-color: #000 !important; 
+}
+
+.bg-zinc-800.mr-8.p-3.rounded-lg.shadow-md, input.flex-1.bg-zinc-900.border.border-zinc-800.rounded-l-lg.px-4.py-2.text-white.focus\:outline-none.focus\:ring-1.focus\:ring-white.placeholder-gray-500 {
+    background: #f9f8f5;
+}
+
+.p-4.border-b.border-zinc-800.bg-black.flex.justify-between.items-center.rounded-t-lg {
+    background-color: #065973 !important;
+}
+
+input.flex-1.bg-zinc-900.border.border-zinc-800.rounded-l-lg.px-4.py-2.text-white.focus\:outline-none.focus\:ring-1.focus\:ring-white.placeholder-gray-500 {
+    background-color: #fff !important;
+}
+
+
+main button.bg-black.hover\:bg-zinc-900.text-white.p-4.rounded-full.shadow-lg.flex.items-center.justify-center.relative.border.border-zinc-800:hover {
+    background-color: #065972 !important;
+    border-color: #032833 !important;
+    transition: all ease-in-out 0.4s;
+}
+
+
+hr {
+    border-bottom: 1px solid #ececec;
+    padding-top: 1rem !important;
+    border-top: none;
+}
+
+strong {font-weight: 600;letter-spacing: 0.3px;}
+
+::marker {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 100 !important;
+}
+
+ .px-16 ul, .px-16 ol {
+    padding-left: 0.9rem !important;
+    list-style-position: outside;
+}
+
+.px-16 li {
+    padding-left: 0.5rem;
+    margin-left: 0.5rem !important;
+}
+
+ol.text-zinc-300.list-decimal.pl-6.mb-6.space-y-2 {
+}
+
+.p-4.pt-0.border-t.border-zinc-800.text-zinc-300.whitespace-pre-wrap {
+    padding: 25px 20px;
+}
+
+.p-4.pt-0.border-t.border-zinc-800.text-zinc-300.whitespace-pre-wrap {
+    background: #83827f;
+}
+
+h4 {
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    /* letter-spacing: 0.01rem !important; */
+    color: #065973 !important;
+}
+
+.w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800 {
+    margin-top: -2%;
+}
+
+button.flex.items-center.gap-1.w-full.transition-colors.duration-200.text-left.py-1\.5.text-gray-300.hover\:bg-zinc-900.hover\:text-white {
+    /* font-weight: 100; */
+}
+
+nav li {
+    /* margin-top: 0 !important; */;
+    /* margin-bottom: 5px !important; */;
+}
+
+button.flex.items-center.gap-1.w-full.transition-colors.duration-200.text-left.py-1\.5.text-white.font-medium.hover\:bg-zinc-900.hover\:text-white {
+    margin-bottom: 20px;
+}
