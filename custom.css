@@ -32,11 +32,11 @@
   
   /* Apply the fonts to elements as needed */
   body {
-    font-family: 'PPNeueMontreal', sans-serif !important;
+    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif !important;
   }
   
   code, pre {
-    font-family: 'PPNeueMontrealMono', monospace !important;
+    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif !important;
   }
   
 
@@ -48,7 +48,7 @@ body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}body.__variable_
     color: #000 !important;
     border-color: #675E45;
 }
-* {font-family: PP Neue Montreal Medium, Helvetica, Arial;}
+* {font-family: 'PPNeueMontreal','NeueMontreal',sans-serif !important;}
 
 p {font-weight: 100 !important;font-size: 17px !important;color: #111111 !important;line-height: 2  !important;margin-bottom: 1rem !important;}
 
