@@ -1,6 +1,16 @@
+/* Container Padding */
+.py-10 {
+    padding-top: 2rem;
+}
+
+/* Hide Research Tree, Date, and Prompt */
+div.w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800, div.text-zinc-400.text-sm.mb-4, div.mb-6.bg-zinc-900.rounded-md.overflow-hidden {
+    display:none !important;
+}
+
 /* Define the monospaced font */
 @font-face {
-    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
+    font-family: NeueMontreal;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontrealMono-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal
@@ -8,7 +18,7 @@
   
   /* Define the regular font */
   @font-face {
-    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
+    font-family: NeueMontreal;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontreal-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -16,29 +26,19 @@
   
   /* Define the medium weight */
   @font-face {
-    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
+    font-family: NeueMontreal-Medium;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontreal-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
   }
-  
+  NeueMontreal,PP Neue Montreal Medium, Helvetica, Arial
   /* Define the bold weight */
   @font-face {
-    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
+    font-family: NeueMontreal;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontreal-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
   }
-  
-  /* Apply the fonts to elements as needed */
-  body {
-    font-family: NeueMontreal,'PPNeueMontreal',sans-serif !important;
-  }
-  
-  code, pre {
-    font-family: NeueMontreal,'PPNeueMontreal',monospace !important;
-  }
-  
 
 body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}.w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800 {}button.flex.items-center.gap-1.w-full.transition-colors.duration-200.text-left.py-1\.5.text-gray-400.hover\:bg-zinc-900.hover\:text-white {}.w-full.mt-16.pb-8.border-b.mb-14.border-zinc-800 {
     border-bottom: 0;
@@ -48,14 +48,19 @@ body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}body.__variable_
     color: #000 !important;
     border-color: #675E45;
 }
-* {font-family: NeueMontreal,'PPNeueMontreal',sans-serif !important;}
+*, body {font-family: NeueMontreal, Helvetica, Arial, sans-serif !important;}
 
 p {font-weight: 100 !important;font-size: 17px !important;color: #111111 !important;line-height: 2  !important;margin-bottom: 1rem !important;}
+
+h1 {
+    letter-spacing: -.01rem !important;
+    font-family: NeueMontreal-Medium !important;
+}
 
 h1,h2,h3,h4, h5,span,li,ol,strong {
     color: #000000 !important;
 }
-h2 {color:#065972 !important; font-size: 26px !important;font-family:NeueMontreal,PP Neue Montreal Medium; font-weight:100 !important;}
+h2 {color:#065972 !important; font-size: 26px !important; font-family: NeueMontreal-Medium !important; font-weight:100 !important;}
 
 h3 {margin-top: 2rem !important;font-size: 18px !important;font-weight: 600 !important;margin-bottom: 0.75rem !important;letter-spacing: 0.01rem !important;}
 
