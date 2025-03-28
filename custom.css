@@ -1,6 +1,6 @@
 /* Define the monospaced font */
 @font-face {
-    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif;
+    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontrealMono-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal
@@ -8,7 +8,7 @@
   
   /* Define the regular font */
   @font-face {
-    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif;
+    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontreal-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -16,7 +16,7 @@
   
   /* Define the medium weight */
   @font-face {
-    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif;
+    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontreal-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
@@ -24,7 +24,7 @@
   
   /* Define the bold weight */
   @font-face {
-    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif;
+    font-family: NeueMontreal,'PPNeueMontreal',sans-serif;
     src: url('https://librarian.abgsv.com/fonts/PPNeueMontreal-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
@@ -32,11 +32,11 @@
   
   /* Apply the fonts to elements as needed */
   body {
-    font-family: 'PPNeueMontreal','NeueMontreal',sans-serif !important;
+    font-family: NeueMontreal,'PPNeueMontreal',sans-serif !important;
   }
   
   code, pre {
-    font-family: 'PPNeueMontreal','NeueMontreal',monospace !important;
+    font-family: NeueMontreal,'PPNeueMontreal',monospace !important;
   }
   
 
@@ -48,14 +48,14 @@ body.__variable_4d318d.__variable_ea5f4b.antialiased.bg-black {}body.__variable_
     color: #000 !important;
     border-color: #675E45;
 }
-* {font-family: 'PPNeueMontreal','NeueMontreal',sans-serif !important;}
+* {font-family: NeueMontreal,'PPNeueMontreal',sans-serif !important;}
 
 p {font-weight: 100 !important;font-size: 17px !important;color: #111111 !important;line-height: 2  !important;margin-bottom: 1rem !important;}
 
 h1,h2,h3,h4, h5,span,li,ol,strong {
     color: #000000 !important;
 }
-h2 {color:#065972 !important; font-size: 26px !important;font-family:PP Neue Montreal Medium; font-weight:100 !important;}
+h2 {color:#065972 !important; font-size: 26px !important;font-family:NeueMontreal,PP Neue Montreal Medium; font-weight:100 !important;}
 
 h3 {margin-top: 2rem !important;font-size: 18px !important;font-weight: 600 !important;margin-bottom: 0.75rem !important;letter-spacing: 0.01rem !important;}
 
